@@ -1,0 +1,57 @@
+img{
+    height: 200px;
+    width: 1200px;
+}
+
+
+h3{
+    color: green;
+    font-size: 30px;
+}
+
+.para
+{
+    color: gold;
+}
+
+.list
+{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+ul li ul li::marker {
+    color: yellow; /* Makes the bullet circle yellow */
+}
+
+
+
+
+
+.loc
+{
+    color: blue;
+}
+
+.topic
+{
+    color: purple;
+}
+
+label{
+    color: red;
+}
+
+fieldset
+{
+    color: red;
+}
+
+
+.footer li{
+   
+    display: inline;
+}
+
+

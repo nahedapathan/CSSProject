@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+
+        #container
+        {
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            /* flex-direction: row-reverse; */
+            align-items: center;
+            
+        }
+
+        .c1
+        {
+            width: 300px;
+            height: 300px;
+            border: 2px solid palevioletred;
+            
+        }
+        #d1
+        {
+              /* flex-grow: 2; */
+              background-color: aquamarine;
+        }
+    
+        #d2
+        {
+            /* flex-shrink: 2; */
+            background-color: brown;
+        }
+
+        #d3
+        {
+            /* flex-grow: 2; */
+            background-color: chartreuse;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+
+        <div id="d1" class="c1">
+            <h1><mark>Division One</mark></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit aspernatur ratione totam vel rerum ut eius
+                perspiciatis repellat quia eveniet molestiae id eos eaque nobis ea itaque, illo qui. Assumenda minus atque harum ab
+                nam laudantium repudiandae dolor nostrum eius tenetur enim, repellat odio ad libero earum accusantium magnam.</p>
+        </div>
+        <div id="d2" class="c1">
+            <h1><mark>Division Two</mark></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit aspernatur ratione totam vel rerum ut eius
+                perspiciatis repellat quia eveniet molestiae id eos eaque nobis ea itaque, illo qui. Assumenda minus atque harum ab
+                nam laudantium repudiandae dolor nostrum eius tenetur enim, repellat odio ad libero earum accusantium magnam.</p>
+        
+        </div>
+        <div id="d3" class="c1">
+            <h1><mark>Division Three</mark></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit aspernatur ratione totam vel rerum ut eius
+                perspiciatis repellat quia eveniet molestiae id eos eaque nobis ea itaque, illo qui. Assumenda minus atque harum ab
+                nam laudantium repudiandae dolor nostrum eius tenetur enim, repellat odio ad libero earum accusantium magnam.</p>
+        
+        </div>
+    </section>
+</body>
+</html>

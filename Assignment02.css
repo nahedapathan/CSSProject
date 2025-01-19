@@ -1,0 +1,53 @@
+#main{
+    
+    border: 4px solid palevioletred;
+    height: 705px;
+    width: 1513px;
+    
+    
+}
+
+.div
+{
+    border: 2px solid palevioletred;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#leftdiv
+{
+ float: left;
+ height: 120px;
+ width: 270px;
+ padding-top: 200px;
+ padding-bottom: 200px;
+ 
+}
+
+#maindiv
+{
+    float: left;
+    height: 120px;
+    width: 900px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
+    
+}
+
+#rightdiv
+{
+    float: left;
+    height: 120px;
+    width: 270px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+ 
+   
+}
+
+#footerdiv
+{
+   margin-top: 560px;
+}

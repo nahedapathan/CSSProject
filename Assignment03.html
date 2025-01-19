@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+         #container
+         {
+            width: 100%;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+         }
+         p{
+             text-align: left;
+         }
+
+         .c1
+         {
+            width: 400px;
+            height: 500px;
+            border: 2px solid palevioletred;
+            position: relative;
+         }
+
+         img{
+            width: 300px;
+            height: 200px;
+            transition: opacity 0.3s transform 0.3s;
+         }
+
+         /* Card 1 display none*/
+         #d1 input[type="button"]:nth-child(3):hover ~ img {
+            display: none;
+         }
+
+         /* Card 1 change Opacity*/
+         #d1 input[type="button"]:nth-child(4):hover ~ img {
+            opacity: 0.5;
+         }
+
+         /* Card 2 Visibility hidden*/
+         #d2 input[type="button"]:nth-child(3):hover ~ img {
+               visibility: hidden;
+         }
+
+         /* Card 2 change Opacity*/
+         #d2 input[type="button"]:nth-child(4):hover ~ img {
+            opacity: 0.5;
+         }
+
+         /* Card3 Hover effect*/
+         #d3 input[type="button"]:nth-child(3):hover ~ img {
+            transform: scale(1.1);
+         }
+
+         /* Card 3: Change opacity */
+         #d3 input[type="button"]:nth-child(4):hover ~ img {
+            opacity: 0.5;
+         }
+
+
+         input[type="button"]
+         {
+            margin: 10px;
+            padding: 10px 15px;
+            border: 2px solid palevioletred;
+            background-color: aqua;
+            color: palevioletred;
+            cursor: pointer;
+            transition: all 0.3s ease;
+         }
+
+         input[type="button"]:hover{
+            background-color: palevioletred;
+            color: white;
+         }
+
+
+    </style>
+</head>
+<body>
+    <section id="container">
+
+        <div id="d1" class="c1">
+            <h3>Card 1</h3>
+            <img src="image/Image1.png" alt="Image1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit distinctio perspiciatis blanditiis vitae tempore
+                dolor neque voluptates atque dicta, est dolorum nam eum aspernatur. Doloribus, illum quia amet temporibus eaque
+                consectetur! Odio voluptatum corrupti assumenda architecto repudiandae a alias dolor voluptatem iure quod tempore
+                est nisi, doloremque quo eum!</p>
+            <input type="button" value="Display:none">
+            <input type="button" value="Change:opacity">
+        </div>
+
+        <div id="d2" class="c1">
+            <h3>Card 2</h3>
+            <img src="image/Image3.png" alt="Image2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit distinctio perspiciatis blanditiis vitae tempore
+                dolor neque voluptates atque dicta, est dolorum nam eum aspernatur. Doloribus, illum quia amet temporibus eaque
+                consectetur! Odio voluptatum corrupti assumenda architecto repudiandae a alias dolor voluptatem iure quod tempore
+                est nisi, doloremque quo eum!</p>
+
+                <input type="button" value="Visibility:hidden">
+                <input type="button" value="Change:opacity">
+        </div>
+
+        <div id="d3" class="c1">
+            <h3>Card 3</h3>
+            <img src="image/Image4.png" alt="Image 3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit distinctio perspiciatis blanditiis vitae tempore
+                dolor neque voluptates atque dicta, est dolorum nam eum aspernatur. Doloribus, illum quia amet temporibus eaque
+                consectetur! Odio voluptatum corrupti assumenda architecto repudiandae a alias dolor voluptatem iure quod tempore
+                est nisi, doloremque quo eum!</p>
+                <input type="button" value="hover">
+            <input type="button" value="Change:opacity">
+        </div>
+    </section>
+</body>
+</html>
